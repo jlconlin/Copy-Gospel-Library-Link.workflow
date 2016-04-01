@@ -21,6 +21,77 @@
 					<true/>
 					<key>Types</key>
 					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Contents of Clipboard.action</string>
+				<key>ActionName</key>
+				<string>Get Contents of Clipboard</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Get_Contents_of_Clipboard</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMGetContentsOfClipboardAction</string>
+				<key>InputUUID</key>
+				<string>5F605AED-9FF6-45B5-9C01-6AAB1067432E</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>0AEFE511-C96B-476A-9316-20B8AC21D62F</string>
+				<key>UUID</key>
+				<string>72815022-D56D-47E3-ABA5-5F274FBC44BC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
 						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
@@ -176,7 +247,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>377.500000:253.000000</string>
+				<string>370.000000:679.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -257,18 +328,25 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>7784C7C5-51BA-4525-A4B8-29DA3F1EAE5B</key>
+		<key>8BDABC96-27AF-4C94-BA50-ACD53C43A44C</key>
 		<dict>
 			<key>from</key>
 			<string>374119AE-0268-44E8-BDEC-308BDE84553B - 374119AE-0268-44E8-BDEC-308BDE84553B</string>
 			<key>to</key>
 			<string>BEF74EB8-03BB-4A6B-A323-B021650BB7B4 - BEF74EB8-03BB-4A6B-A323-B021650BB7B4</string>
 		</dict>
+		<key>D7573191-AFA6-4E65-9011-8037FD040EB4</key>
+		<dict>
+			<key>from</key>
+			<string>72815022-D56D-47E3-ABA5-5F274FBC44BC - 72815022-D56D-47E3-ABA5-5F274FBC44BC</string>
+			<key>to</key>
+			<string>374119AE-0268-44E8-BDEC-308BDE84553B - 374119AE-0268-44E8-BDEC-308BDE84553B</string>
+		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
+		<string>com.apple.Automator.nothing</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
