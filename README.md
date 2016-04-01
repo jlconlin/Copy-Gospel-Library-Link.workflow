@@ -10,4 +10,8 @@ https://www.lds.org/manual/old-testament-seminary-teacher-manual/introduction-to
 and replace the `https` with `gospellibrary` and `www.lds.org` with `content`.  This facilitates copying links ans pasting them into another document with links to the Gospel Library app on an iOS device.
 
 ## Installation
-Clone this repository into `~/Library/Services` where `~` is your home directory.
+```
+cd ~/Library/Services
+git clone git@github.com:jlconlin/GL-Link-Substitution.git "Copy Gospel Library Link.workflow"
+```
+
