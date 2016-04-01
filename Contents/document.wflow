@@ -99,8 +99,6 @@
 				<string>7074F238-8EC6-42A0-B1F3-D31B95FB913C</string>
 				<key>ShowWhenRun</key>
 				<false/>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>374119AE-0268-44E8-BDEC-308BDE84553B</string>
 				<key>UnlocalizedApplications</key>
@@ -175,12 +173,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>377.500000:433.000000</string>
+				<string>377.500000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -256,14 +252,12 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>8F4EE8F5-5E77-4C84-A429-63CC73705E9B</key>
+		<key>7784C7C5-51BA-4525-A4B8-29DA3F1EAE5B</key>
 		<dict>
 			<key>from</key>
 			<string>374119AE-0268-44E8-BDEC-308BDE84553B - 374119AE-0268-44E8-BDEC-308BDE84553B</string>
